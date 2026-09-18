@@ -15,6 +15,16 @@ import p22 from "@/assets/p22.jpg";
 import p23 from "@/assets/p23.jpg";
 import p24 from "@/assets/p24.jpg";
 import p25 from "@/assets/p25.jpg";
+// Copper scrap product images sourced from enreachglobal.com
+import copper27 from "@/assets/copper-27.jpg"; // Millberry – Bare Bright Copper Wire
+import copper28 from "@/assets/copper-28.jpg"; // Birch / Cliff – No. 1 Copper
+import copper31 from "@/assets/copper-31.jpg"; // Candy – No. 2 Copper
+import copper35 from "@/assets/copper-35.jpg"; // Berry – Copper Wire
+import copper39 from "@/assets/copper-39.jpg"; // Copper Chops
+import copper41 from "@/assets/copper-41.jpg"; // Copper Radiators
+import copper44 from "@/assets/copper-44.jpg"; // Copper Motors
+import copper48 from "@/assets/copper-48.jpg"; // Copper Transformers
+import copper50 from "@/assets/copper-50.jpg"; // Tinned Copper
 
 export const profile = {
   name: "Kishan Hirpara",
@@ -23,9 +33,9 @@ export const profile = {
   tagline: "Global Metal Trade",
   description:
     "Premium metal scrap trading company specializing in aluminium, copper, and brass.",
-  phoneDisplay: "+1 (403) 991-7496",
-  phoneHref: "tel:+14039917496",
-  whatsapp: "https://wa.me/14039917496",
+  phoneDisplay: "+1 (403) 991-7498",
+  phoneHref: "tel:+14039917498",
+  whatsapp: "https://wa.me/14039917498",
   email: "Info@Enreachglobal.com",
   website: "https://www.enreachglobal.com/",
   websiteLabel: "enreachglobal.com",
@@ -93,15 +103,15 @@ export const productCategories: ProductCategory[] = [
     key: "copper",
     label: "Copper Scrap",
     items: [
-      { name: "Millberry", image: p19, note: "Bare bright copper wire" },
-      { name: "Birch / Cliff — No. 1 Copper", image: p01, note: "Clean No. 1 grade" },
-      { name: "Candy — No. 2 Copper", image: p11, note: "Unalloyed No. 2 grade" },
-      { name: "Berry — Copper Wire", image: p03, note: "Clean copper wire" },
-      { name: "Copper Chops", image: p23, note: "Granulated copper" },
-      { name: "Copper Radiators", image: p09, note: "Recovered radiator units" },
-      { name: "Copper Motors", image: p12, note: "Electric motor scrap" },
-      { name: "Copper Transformers", image: p16, note: "Transformer copper" },
-      { name: "Tinned Copper", image: p24, note: "Tin-coated copper" },
+      { name: "Millberry", image: copper27, note: "Bare bright copper wire" },
+      { name: "Birch / Cliff — No. 1 Copper", image: copper28, note: "Clean No. 1 grade" },
+      { name: "Candy — No. 2 Copper", image: copper31, note: "Unalloyed No. 2 grade" },
+      { name: "Berry — Copper Wire", image: copper35, note: "Clean copper wire" },
+      { name: "Copper Chops", image: copper39, note: "Granulated copper" },
+      { name: "Copper Radiators", image: copper41, note: "Recovered radiator units" },
+      { name: "Copper Motors", image: copper44, note: "Electric motor scrap" },
+      { name: "Copper Transformers", image: copper48, note: "Transformer copper" },
+      { name: "Tinned Copper", image: copper50, note: "Tin-coated copper" },
     ],
   },
 ];
