@@ -1,4 +1,4 @@
-import logo from "@/assets/enreach-logo.png";
+const logo = "/assets/enreach-global-emblem.jpg";
 import kishan from "@/assets/kishan.jpg";
 import heroZorba from "@/assets/hero-aluminium-zorba.jpg";
 import heroUbc from "@/assets/hero-aluminium-ubc.jpg";

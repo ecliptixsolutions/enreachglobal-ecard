@@ -7,6 +7,7 @@ import {
   Globe,
   UserPlus,
   Share2,
+  Instagram,
   type LucideIcon,
 } from "lucide-react";
 import { profile, vcard } from "@/lib/ecard-data";
@@ -14,11 +15,13 @@ import { profile, vcard } from "@/lib/ecard-data";
 function ActionTile({
   icon: Icon,
   label,
+  ariaLabel,
   href,
   onClick,
 }: {
   icon: LucideIcon;
   label: string;
+  ariaLabel?: string;
   href?: string;
   onClick?: () => void;
 }) {
@@ -39,6 +42,7 @@ function ActionTile({
     return (
       <a
         href={href}
+        aria-label={ariaLabel}
         className={cls}
         {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
       >
@@ -101,6 +105,12 @@ export function ActionGrid() {
         <ActionTile icon={Globe} label="Website" href={profile.website} />
         <ActionTile icon={UserPlus} label="Save Contact" onClick={saveContact} />
         <ActionTile icon={Share2} label="Share Card" onClick={shareCard} />
+        <ActionTile
+          icon={Instagram}
+          label="Instagram"
+          ariaLabel="Visit Enreach Global on Instagram"
+          href="https://www.instagram.com/enreach_global?xtok=MWg1NTE4Z2didmtiOQ=="
+        />
       </div>
       <p aria-live="polite" className="mt-3 min-h-5 text-center text-xs text-muted-foreground">
         {note}

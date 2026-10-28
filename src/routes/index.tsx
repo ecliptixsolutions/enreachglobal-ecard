@@ -116,10 +116,10 @@ function ECard() {
 
           <img
             src={profile.logo}
-            alt="Enreach Global Inc. logo"
-            width={512}
-            height={465}
-            className="mx-auto mt-5 h-16 w-auto object-contain"
+            alt="Enreach Global — Scrap Trading & Exporting"
+            width={1536}
+            height={1024}
+            className="mx-auto mt-5 h-auto w-[160px] max-w-full object-contain sm:w-[180px] lg:w-[200px]"
           />
 
           <h1 className="mt-4 text-center text-2xl font-bold uppercase leading-tight tracking-tight text-foreground">
@@ -140,8 +140,25 @@ function ECard() {
           </div>
 
           <p className="mt-4 text-center font-display text-xl font-bold">{profile.name}</p>
-          <p className="mt-1 text-center text-xs uppercase tracking-[0.24em] text-muted-foreground">
+          <p className="relative mt-1 text-center text-xs uppercase tracking-[0.24em] text-muted-foreground">
             {profile.title}
+            <a
+              href="https://www.linkedin.com/in/kishan-hirpara-66851918b"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="absolute left-1/2 top-full mt-0.5 inline-flex min-h-6 -translate-x-1/2 cursor-pointer items-center justify-center gap-1.5 whitespace-nowrap rounded-md border border-[#0A66C2]/20 bg-white px-2.5 text-[11px] font-medium normal-case tracking-normal text-[#0A66C2] transition-colors duration-200 hover:border-[#0A66C2]/60 hover:bg-[#F0F7FF] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#0A66C2]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                className="size-3.5 shrink-0"
+                aria-hidden="true"
+              >
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.049c.476-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+              </svg>
+              Connect on LinkedIn
+            </a>
           </p>
         </div>
       </section>
@@ -309,12 +326,12 @@ function ECard() {
       <footer className="mt-12 text-center">
         <img
           src={profile.logo}
-          alt="Enreach Global Inc. logo"
+          alt="Enreach Global — Scrap Trading & Exporting"
           loading="lazy"
           decoding="async"
-          width={512}
-          height={465}
-          className="mx-auto h-12 w-auto object-contain"
+          width={1536}
+          height={1024}
+          className="mx-auto h-auto w-[160px] max-w-full object-contain"
         />
         <p className="mt-3 font-display text-base font-bold">{profile.company}</p>
         <p className="mx-auto mt-2 max-w-xs text-xs leading-relaxed text-muted-foreground">
